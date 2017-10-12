@@ -1,7 +1,7 @@
 # My *Counter-Strike: Global Offensive* config files
 
 Repo for sharing my **CSGO** config files, hardware setup and tips. I'm
-running it at **GNU/Linux Ubuntu 16.04 LTS** due to it is officialy supported by
+running it at **GNU/Linux Ubuntu 16.04 LTS** as it is officialy supported by
 **Steam** (For life, I'm a **Fedora GNU/Linux** user and contributtor). The
 game is **OpenGL** based. _**Source Engine**_, so my system is under __admgpu__ *Open Source*
 driver stack, instead of __amdgpu-pro__, which is better for __*Source2 Engine*__,
