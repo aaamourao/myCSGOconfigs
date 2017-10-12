@@ -1,11 +1,11 @@
-# My __*Counter-Strike: Global Offensive*__ config files
+# My *Counter-Strike: Global Offensive* config files
 
-Repo for sharing my _**CSGO**_ config files, hardware setup and tips. I'm
-running it at _**GNU/Linux Ubuntu 16.04 LTS**_ due it is officialy supported by
-_**Steam**_ (For life, I'm a _**Fedora GNU/Linux**_ user and contributtor). The
-game is _**OpenGL**_ based. *Source Engine*, so my system is under __admgpu__ *Open Source*
-driver stack, instead of __amdgpu-pro__, which is better for *Source2 Engine*,
-*Vulkan*, and so on... e.g. _**Dota 2**_.
+Repo for sharing my **CSGO** config files, hardware setup and tips. I'm
+running it at **GNU/Linux Ubuntu 16.04 LTS** due to it is officialy supported by
+**Steam** (For life, I'm a **Fedora GNU/Linux** user and contributtor). The
+game is **OpenGL** based. _**Source Engine**_, so my system is under __admgpu__ *Open Source*
+driver stack, instead of __amdgpu-pro__, which is better for __*Source2 Engine*__,
+**Vulkan**, and so on... e.g. **Dota 2**.
 
 ## File list
 
