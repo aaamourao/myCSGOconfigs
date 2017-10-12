@@ -10,7 +10,8 @@
 
 Based on [**SK | Fallen**](https://go.twitch.tv/gafallen) video settings:
 
-!(CSGO -> Options -> Video Settings)[/images/videosettings.jpg]
+!(CSGO -> Options -> Video
+Settings)[https://raw.githubusercontent.com/madc0ww/myCSGOconfigs/master/images/videosettings.jpg]
 
 ##Hardware and Software setup
 
@@ -22,7 +23,7 @@ System:    Host: heima Kernel: 4.10.0-37-generic x86_64 (64 bit) Desktop: Gnome
 Machine:   System: ASUS product: All Series
            Mobo: ASUSTeK model: SABERTOOTH Z97 MARK 2 v: Rev 1.xx
            Bios: American Megatrends v: 1202 date: 06/17/2014
-CPU:       Quad core Intel Core i5-4690K (-MCP-) cache: 6144 KB 
+CPU:       Quad core Intel Core i5-4690K (-MCP-) cache: 6144 KB
            clock speeds: max: 4500 MHz 1: 3810 MHz 2: 3536 MHz 3: 3501 MHz 4:
 3488 MHz
 Graphics:  Card: Advanced Micro Devices [AMD/ATI] Device 67df
