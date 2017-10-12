@@ -1,19 +1,19 @@
-#My *Counter-Strike: Global Offensive* config files
+# My *Counter-Strike: Global Offensive* config files
 
-##File list
+## File list
 
 * config.cfg: Roughly based on [**SK | Coldzera**](https://go.twitch.tv/coldzin) config file
 * treinamento.cfg: Small config file for practicing alone or against bots
 * autoexec.cfg: A shameful copy of **SK | Coldzera** autoexec config file
 
-##Video settings
+## Video settings
 
 Based on [**SK | Fallen**](https://go.twitch.tv/gafallen) video settings:
 
 ![CSGO -> Options -> Video
 Settings](/images/videosettings.jpg)
 
-##Hardware and Software setup
+## Hardware and Software setup
 
 ```bash
 [madc0w@heima]: WorkSpace $ inxi -F
