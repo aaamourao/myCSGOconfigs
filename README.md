@@ -10,8 +10,8 @@
 
 Based on [**SK | Fallen**](https://go.twitch.tv/gafallen) video settings:
 
-!(CSGO -> Options -> Video
-Settings)[https://raw.githubusercontent.com/madc0ww/myCSGOconfigs/master/images/videosettings.jpg]
+![CSGO -> Options -> Video
+Settings](/images/videosettings.jpg)
 
 ##Hardware and Software setup
 
