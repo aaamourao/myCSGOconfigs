@@ -21,7 +21,63 @@ Based on [**SK | Fallen**](https://go.twitch.tv/gafallen) video settings:
 ![CSGO -> Options -> Video
 Settings](/images/videosettings.jpg)
 
+## Mouse: Xinput properties
+
+On `~/.bashrc`:
+
+```bash
+# Mouse Settings
+xinput --set-prop 11 "Device Accel Constant Deceleration" 1.35
+xinput --set-prop 11 "Device Accel Velocity Scaling" 1
+xinput set-prop 11 'Device Accel Profile' -1
+```
+List of all properties:
+
+```bash
+[madc0w@heima]: myCSGOconfigs $ xinput list-props 11
+Device 'HID-compliant Mouse HID-compliant Mouse':
+        Device Enabled (137):   1
+        Coordinate Transformation Matrix (139): 1.000000, 0.000000, 0.000000,
+0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000
+        Device Accel Profile (285):     -1
+        Device Accel Constant Deceleration (286):       1.350000
+        Device Accel Adaptive Deceleration (287):       1.000000
+        Device Accel Velocity Scaling (288):    1.000000
+        Device Product ID (257):        7511, 5
+        Device Node (258):      "/dev/input/event4"
+        Evdev Axis Inversion (289):     0, 0
+        Evdev Axes Swap (291):  0
+        Axis Labels (292):      "Rel X" (147), "Rel Y" (148), "Rel Vert Wheel"
+(297)
+        Button Labels (293):    "Button Left" (140), "Button Middle" (141),
+"Button Right" (142), "Button Wheel Up" (143), "Button Wheel Down" (144),
+"Button Horiz Wheel Left" (145), "Button Horiz Wheel Right" (146), "Button Side"
+(295), "Button Extra" (296), "Button Unknown" (260), "Button Unknown" (260),
+"Button Unknown" (260), "Button Unknown" (260)
+        Evdev Scrolling Distance (294): 1, 1, 1
+        Evdev Middle Button Emulation (271):    0
+        Evdev Middle Button Timeout (272):      50
+        Evdev Middle Button Button (273):       2
+        Evdev Third Button Emulation (274):     0
+        Evdev Third Button Emulation Timeout (275):     1000
+        Evdev Third Button Emulation Button (276):      3
+        Evdev Third Button Emulation Threshold (277):   20
+        Evdev Wheel Emulation (278):    0
+        Evdev Wheel Emulation Axes (279):       0, 0, 4, 5
+        Evdev Wheel Emulation Inertia (280):    10
+        Evdev Wheel Emulation Timeout (281):    200
+        Evdev Wheel Emulation Button (282):     4
+        Evdev Drag Lock Buttons (283):  0
+```
+
 ## Hardware and Software setup
+
+External hardware:
+
+* Fortrek **Spider Venom** mouse
+* Fortrek **Venom 2** keyboard
+
+Main hardware:
 
 ```bash
 [madc0w@heima]: WorkSpace $ inxi -F
