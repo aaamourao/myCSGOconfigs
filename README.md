@@ -27,14 +27,17 @@ On `~/.bashrc`:
 
 ```bash
 # Mouse Settings
-xinput --set-prop 11 "Device Accel Constant Deceleration" 1.35
-xinput --set-prop 11 "Device Accel Velocity Scaling" 1
-xinput set-prop 11 'Device Accel Profile' -1
+xinput --set-prop 11 'Device Accel Profile' -1
+xinput --set-prop 10 'Device Accel Profile' -1
+xinput set-prop 11 "Device Accel Constant Deceleration" 1.35
+xinput set-prop 11 "Device Accel Velocity Scaling" 1
+xinput set-prop 10 "Device Accel Constant Deceleration" 1.35
+xinput set-prop 10 "Device Accel Velocity Scaling" 1
 ```
 List of all properties:
 
 ```bash
-[madc0w@heima]: myCSGOconfigs $ xinput list-props 11
+[madc0w@heima]: ~ $ xinput list-props 11
 Device 'HID-compliant Mouse HID-compliant Mouse':
         Device Enabled (137):   1
         Coordinate Transformation Matrix (139): 1.000000, 0.000000, 0.000000,
